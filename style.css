@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Roboto:wght@300&family=Saira+Condensed:wght@100&family=Saira+Extra+Condensed&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #ff7635, #C82539);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 30%;
+}
+
+h1 {
+    letter-spacing: 5px;
+    size: bolder;
+    color: white;
+    border-radius: 10px;
+}
+
+.info > span{
+    color: white;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.pokemon {
+    background-color: #eee;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dadada;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+
+}
+
+img{
+    max-width: 90%;
+}
+
+.info{
+    margin-top: 20px;
+}
+
+.number{
+    padding: 2px 13px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.name{
+    margin: 15px 0 7px;
+    letter-spacing: 1.5px;
+}
